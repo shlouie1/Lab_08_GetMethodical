@@ -141,6 +141,7 @@ public class SafeInput {
         String trash = "";
         String response = "";
 
+        //have to type out the 'regEx' exactly for it to return
         do {
             trash = "";
             System.out.print("\n" + prompt + " '" + regEx + "': ");
